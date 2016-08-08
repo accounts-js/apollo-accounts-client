@@ -1,6 +1,7 @@
 const Accounts = {
-  getLoginUrlFor(provider) {
-    return `/connect/${provider}`;
+  loginWithProvider(provider) {
+    window.open(`/connect/${provider}`,
+      'Authorize Application', 'height=500,width=600');
   },
 };
 
