@@ -18,13 +18,16 @@
   "author": "Tim Mikeladze",
   "license": "MIT",
   "dependencies": {
+    "apollo-client": "^0.4.11",
     "babel-core": "^6.13.0",
     "babel-polyfill": "^6.13.0",
     "chai": "^3.5.0",
     "chai-spies": "^0.7.1",
     "express": "^4.14.0",
+    "graphql-tag": "^0.1.11",
     "lodash": "^4.14.1",
     "object-assign-deep": "0.0.4",
+    "redux-thunk": "^2.1.0"
   },
   "devDependencies": {
     "babel-cli": "^6.11.4",
